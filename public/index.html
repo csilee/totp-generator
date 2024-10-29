@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TOTP Generator</title>
+  <title>TOTP Generátor</title>
   <link rel="stylesheet" href="css/bulma-0.9.4.min.css">
   <style>
     [v-cloak] {
@@ -42,10 +42,10 @@
 
     <div class="container">
 
-      <h1 class="title">TOTP Token Generator</h1>
+      <h1 class="title">TOTP Token Generátor</h1>
 
       <div class="field">
-        <label class="label is-uppercase">Your Secret Key</label>
+        <label class="label is-uppercase">Titkos kulcs</label>
         <div class="control">
           <input class="input" type="text" v-model="secret_key" placeholder="The secret key (in base-32 format)">
         </div>
@@ -83,14 +83,6 @@
     </div>
 
   </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered">
-        Built by <a href="https://dan.hersam.com">Dan Hersam</a>. Source on <a href="https://github.com/jaden/totp-generator">Github</a>.
-      </div>
-    </div>
-  </footer>
 
 </body>
 </html>
